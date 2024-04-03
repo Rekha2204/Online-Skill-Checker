@@ -1,0 +1,81 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for depth */
+    background-color: #fff; /* Light background color */
+  }
+  
+  /* Heading and title styles */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: 600; /* Bold heading */
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: 500; /* Slightly lighter heading */
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Ensure labels are on a separate line */
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px; /* Consistent font size */
+  }
+  
+  /* Button styles */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0067cc;
+  }
+  
+  /* Error message styles */
+  .alert {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #dc3545; /* Red background for error messages */
+  }
+  

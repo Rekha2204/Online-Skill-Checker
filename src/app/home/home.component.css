@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+  }
+  .header {
+    height: 60px; /* Adjust height as needed */
+  }
+  
+  
+  header {
+    background-color: #ffffff;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Creates a flexible left column for the h1 */ 
+    align-items: center; /* Align items vertically */
+    
+    
+ 
+  }
+  
+  .header a {
+    margin-right: 100px;
+  }
+  
+  .header img {
+    width: 100px;
+    height: auto;
+  }
+  .horizontal-list li {
+    margin-right: 40px; /* Replace 20px with your desired spacing */
+  }
+  header h1 {
+    text-align:left; 
+    flex: 5; /* Allow the h1 element to grow and fill the remaining space */
+    margin: 0; /* Remove default margin */
+  
+  }
+  
+  
+  h1 {
+    font-size: 2.5em; /* Increased size */
+    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Changed font */
+  
+  }
+
+
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  .login-card {
+    background-image: url("src/app/home/3331122c6a998b160b3f5a7d0382b575.jpg"); /* Replace with your image path */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    /* Other styles for the card ... */
+    margin-top: 0;
+  }
+  
+  
+  .login-card h2 {
+    /* ... other styles for the h2 ... */
+    color: rgb(37, 30, 65);
+    /* Remove margin-top (if needed) */
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+ 
+  
+    /* Add padding-top for spacing (optional) */
+    padding-top: 10px; 
+    padding-bottom: 10px;/* Adjust as needed */
+  }
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+ 
+  
+  .login-card {
+   
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the card horizontally and add top margin */
+  }
+  
+  /* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+
+
+.header h1 {
+  margin: 10; /* Remove default margin */
+  font-size: 50px;
+}
+
+.header nav {
+  display: flex;
+  list-style: none; /* Remove default bullet points */
+  margin: 5;
+  padding: 5;
+}
+
+.horizontal-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.header nav a {
+  text-decoration: none; /* Remove underline */
+  color: #fffefe; /* Set link color */
+  padding: 5px;
+}
+
+.header nav a:hover {
+  background-color: rgba(219, 92, 92, 0.2); /* Apply hover effect */
+}
+
+/* Card styles */
+.card {
+  width: 150px; /* Increase card width */
+  margin: 10px;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  height: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+
+.h2 {
+  margin-bottom: 5px; /* Add space after heading */
+  font-family:'Times New Roman', Times, serif; /* Replace with your desired font family */
+  font-size: 30px; /* Adjust font size as needed */
+  color:white; /* Add color property */
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.card button {
+  background-color: #5699cc;
+  border: 1px solid #613c3c;
+  padding: 10px 20px;
+  margin: 5px;
+  width: 100px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  font-size: 14px;
+  padding: 5px 10px; /* Adjust padding as needed */
+  cursor: pointer;
+}
+.button {
+  width: 10px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  font-size: 14px;
+  padding: 5px 10px; /* Adjust padding as needed */
+}
+.header {
+  background-image: url("src/app/header/home.jpeg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align elements horizontally */
+  align-items: center; /* Align elements vertically */
+}.header::before { 
+  content: url("src/app/home/logo.png"); /* Insert the image path */
+  margin-right: 1px; /* Add spacing between logo and other content */
+  
+}
+.login-card {
+  background-color: #b1b4cb;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the card horizontally */
+  display: flex; /* Wrap form content in a flexbox */
+  flex-direction: column; /* Align content vertically */
+  align-items: center; /* Center content horizontally within the card */
+}
+
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-card select {
+  width: 100%; /* Match the card width */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.login-card button {
+  background-color: #6d96ff;
+  border: 1px solid #613c3c;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 100%; /* Fill the card width */
+}
+.login-card {
+  flex: 0 0 auto; /* Set flex grow to 0, flex shrink to 0, and flex basis to auto */
+  margin-left: 20px; /* Add margin for better visual separation */
+  margin-top: 50px;
+}
+
+
+.login-card button:hover {
+  background-color: #a3b5e8;
+}
+
+footer {
+  background-color: #30366f;
+  color: #d79d9d;
+  text-align: center;
+  padding: 2px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.card button:hover {
+  background-color: #d7c1c1;
+}
+.logo-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.logo-container a {
+  text-decoration: none; /* Remove underline from link */
+}
+
+.logo-container img {
+  width: 200px; /* Adjust the width as needed */
+  height: auto;
+}
+.image-h2 {
+  position: relative; /* Enable absolute positioning for the pseudo-element */
+}
+
+
+.image-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.shaped-image {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  margin-right: 20px; /* Space between image and buttons */
+  clip-path: circle(50%); /* Shape the image into a circle */
+  /* (or try other clip-path shapes like ellipse or polygon) */
+}
+.header {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align logo vertically */
+}
+
+.primary-display {
+  display: flex;
+  justify-content: space-between; /* Distribute links evenly */
+  padding: 10px 20px;
+  /* Optional background color */
+}
+
+.horizontal-list {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li {
+  display: inline-block; /* Display items horizontally */
+  margin-right: 20px; /* Add space between links */
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0; /* Remove margin from last item */
+}
+
+/* Styles for link text */
+
+
+.horizontal-list li, .horizontal-list li a {
+  list-style: none; /* Remove default bullet points */
+  display: inline-block; /* Display items horizontally */
+  padding: 0 10px; /* Optional padding for spacing */
+  margin-right: 20px; /* Add space between links */
+  text-decoration: none; /* Remove underline */
+  color: #1b383c; /* Text color */
+  font-weight: bold; /* Bold font */
+  font-size: 20px; /* Font size */
+}
+/* Styles for hover effect (optional) */
+
+.horizontal-list li a:hover {
+  color: #000; /* Change color on hover */
+}
+.background-image-container {
+  background-image: url('src/app/home/homebg2.jpg');
+  background-size: cover; /* Adjust as per your requirement */
+  background-repeat: no-repeat;
+  height: 110vh; /* Adjust height as per your requirement */
+}

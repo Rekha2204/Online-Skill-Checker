@@ -1,0 +1,9 @@
+.header {
+  background-image: url("src/app/home/home.jpeg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align elements horizontally */
+  align-items: center; /* Align elements vertically */
+}

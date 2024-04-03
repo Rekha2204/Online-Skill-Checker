@@ -1,0 +1,49 @@
+<body>
+  <div class="container">
+    <h1>Online Skill Checker</h1>
+    <h2>Student Signup</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+
+      <label for="student-id">Student ID:</label>
+      <input type="text" id="student-id" name="student-id" required>
+
+      <label for="gender">Gender:</label>
+      <div>
+        <input type="radio" id="gender-male" name="gender" value="male" required>
+        <label for="gender-male">Male</label>
+        <br>
+        <input type="radio" id="gender-female" name="gender" value="female" required>
+        <label for="gender-female">Female</label>
+        <br>
+        <input type="radio" id="gender-non-binary" name="gender" value="non-binary" required>
+        <label for="gender-non-binary">Non-Binary</label>
+      </div>
+
+      <label for="contact-number">Contact Number:</label>
+      <input type="tel" id="contact-number" name="contact-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+      <label for="qualification">Qualification:</label>
+      <select name="qualification" id="qualification">
+        <option value="">Select Qualification</option>
+        <option value="High School Diploma">High School Diploma</option>
+        <option value="Associate's Degree">Associate's Degree</option>
+        <option value="Bachelor's Degree">Bachelor's Degree</option>
+        <option value="Master's Degree">Master's Degree</option>
+        <option value="Doctorate">Doctorate</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</body>

@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>Online Skill Checker</h1>
+    <h2>Admin Login</h2>
+  
+    <form >
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+      </div>
+  
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" >
+      </div>
+  
+      <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
+  
+      <div *ngIf="errorMessage" class="alert alert-danger">
+        {{ errorMessage }}
+      </div>
+    </form>
+  </div>
+  

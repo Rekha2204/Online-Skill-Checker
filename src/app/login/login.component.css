@@ -1,0 +1,74 @@
+
+
+  .login-card {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto; /* Center the card horizontally */
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #signup-link {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate that it's clickable */
+    margin-left: 130px; /* Optional spacing from Login button */
+  }
+  body {
+    background-image: url("src/app/login/loginbg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+ 
+  
+  
+  select,
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  
+  .login-card {
+    background-image: url("src/app/home/3331122c6a998b160b3f5a7d0382b575.jpg"); /* Replace with your image path */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    /* Other styles for the card ... */
+    margin-top: 0;
+    background-color: #bbd3e6;
+    width: 300px; /* Adjust width as needed */
+    margin: 100px auto; /* Center the card horizontally and add top margin */
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
